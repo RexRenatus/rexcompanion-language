@@ -65,7 +65,7 @@ SHA-256 manifest + integrity steps: see the [main README](../README.md#-integrit
 ## Source & licensing
 
 - **Frequency list:** [`words/fr-frequency-list.txt`](words/fr-frequency-list.txt) — 50,000 entries, OpenSubtitles 2018 via [HermitDave/FrequencyWords](https://github.com/hermitdave/FrequencyWords) (`fr_50k`), `word count` per line.
-- **CEFR overlay:** [FLELex / CEFRLex](https://cental.uclouvain.be/cefrlex/) — CC BY-NC-SA, used for personal/educational study.
+- **CEFR overlay:** [FLELex / CEFRLex](https://cental.uclouvain.be/cefrlex/) — the list itself is CC BY-NC-SA; the decks carry only each word's level, treated as a fact.
 - **Glosses / sentences / mnemonics:** [Google Gemini](https://ai.google.dev/) (via OpenRouter); Wiktionary-fr for first-pass glosses.
 - **Distractors:** [BAAI/bge-m3](https://huggingface.co/BAAI/bge-m3) (MIT).
 

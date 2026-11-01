@@ -496,7 +496,7 @@ Latest release (May 2026): **0 issues, χ² < 12 on every cloze-MCQ deck.**
 
 This project stands on the shoulders of:
 
-- **OpenSubtitles 2018** (via [OPUS](http://opus.nlpl.eu/OpenSubtitles-v2018.php) and [HermitDave/FrequencyWords](https://github.com/hermitdave/FrequencyWords)) — raw subtitle corpora and frequency lists. Licensed for academic and research use.
+- **OpenSubtitles 2018** (via [OPUS](http://opus.nlpl.eu/OpenSubtitles-v2018.php) and [HermitDave/FrequencyWords](https://github.com/hermitdave/FrequencyWords)) — raw subtitle corpora and frequency lists. The corpora are licensed for academic and research use; the frequency lists, FrequencyWords' content, are under CC BY-SA 4.0.
 - **[BAAI/bge-m3](https://huggingface.co/BAAI/bge-m3)** — multilingual embedding model (MIT license).
 - **[Google Gemini](https://ai.google.dev/) (via OpenRouter)** — example-sentence generation, definition fallback, reasoning generation, and synonym verification.
 - **Tokenizers / lemmatizers:**
@@ -506,7 +506,7 @@ This project stands on the shoulders of:
   - **[kiwipiepy](https://github.com/bab2min/kiwipiepy)** for Korean (LGPL)
   - **[simplemma](https://github.com/adbar/simplemma)** for French + Spanish lemmatization (MIT)
 - **CEFR proficiency lists** (level overlay): **ELELex/CEFRLex** (es), **HSK 3.0** (zh),
-  **JLPT** (ja), **NIKL 국제통용** (ko), **[FLELex/CEFRLex](https://cental.uclouvain.be/cefrlex/)** (fr) — CEFRLex sets CC BY-NC-SA, used for personal/educational study.
+  **JLPT** (ja), **NIKL 국제통용** (ko), **[FLELex/CEFRLex](https://cental.uclouvain.be/cefrlex/)** (fr) — the CEFRLex lists themselves are CC BY-NC-SA; the decks carry only each word's level, treated as a fact.
 - **Dictionaries** for free-tier gloss lookup:
   - **[CC-CEDICT](https://www.mdbg.net/chinese/dictionary?page=cc-cedict)** (CC-BY-SA 4.0) for Chinese
   - **[jamdict](https://github.com/neocl/jamdict)** wrapping JMdict (Creative Commons BY-SA)
@@ -530,6 +530,15 @@ All third-party libraries used in their original form, no modifications.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+Course content, sample cards and documentation: CC-BY-NC-SA-4.0 (Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International),
+[LICENSES/CC-BY-NC-SA-4.0.txt](LICENSES/CC-BY-NC-SA-4.0.txt). Published decks that embed CC BY-SA
+glosses or KanjiVG stroke data: CC-BY-SA-4.0 (Creative Commons Attribution-ShareAlike 4.0
+International), [LICENSES/CC-BY-SA-4.0.txt](LICENSES/CC-BY-SA-4.0.txt). Code: MIT (the MIT
+License), [LICENSE](LICENSE). Brand images `docs/header.jpg`, `docs/hero-banner.png` and
+`docs/hero-banner.svg`: all rights reserved. Third-party material keeps its owners' terms. Which
+path carries which licence: [LICENSING.md](LICENSING.md).
 
-The included frequency lists (`*/words/*.txt`) are derived from OpenSubtitles 2018 via HermitDave/FrequencyWords and are redistributed under the spirit of that project's terms. If you build on these decks, please credit OpenSubtitles 2018 and HermitDave/FrequencyWords.
+The included frequency lists (`*/words/*.txt`) are derived from OpenSubtitles 2018 via
+HermitDave/FrequencyWords and keep that project's content licence, CC BY-SA 4.0. If you build on
+these decks, please credit OpenSubtitles 2018 and HermitDave/FrequencyWords.

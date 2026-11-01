@@ -19,18 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-Notes on bundled data:
-
-The frequency lists in {es,ja,zh,ko}/words/*.txt are derived from the
-OpenSubtitles 2018 corpus via HermitDave/FrequencyWords
-(https://github.com/hermitdave/FrequencyWords). Redistribution of these lists
-follows the spirit of OpenSubtitles' academic/research use terms.
-
-The downloadable .apkg flashcard decks (hosted at storage.googleapis.com)
-contain English glosses sourced from CC-CEDICT (CC-BY-SA 4.0), jamdict/JMdict
-(CC-BY-SA), Wiktionary (CC-BY-SA), and Google Gemini. Per CC-BY-SA, any
-redistribution of glosses must preserve attribution to the originating
-dictionaries and license downstream derivatives under a compatible license.

@@ -89,5 +89,5 @@
 
   <line x1="60" y1="502" x2="1220" y2="502" stroke="#d4af37" stroke-width="0.5" opacity="0.3"/>
   <text x="60" y="528" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90">Each <tspan fill="#4ec27e">Session</tspan> introduces new characters + due reviews on an expanding ladder (+1/+2/+4/+8/+16). Cursive cards add a <tspan fill="#d4af37">freehand trace canvas</tspan> over the model (no free animated cursive data).</text>
-  <text x="60" y="552" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90">Stroke data: <tspan fill="#a8a4b8">Make Me a Hanzi</tspan> + <tspan fill="#a8a4b8">KanjiVG</tspan> (CC BY-SA). Glyph fonts OFL. Pronunciation audio: Google Cloud TTS. Korean = cursive workbook this release.</text>
+  <text x="60" y="552" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90">Stroke data: <tspan fill="#a8a4b8">Make Me a Hanzi</tspan> (Arphic PL) + <tspan fill="#a8a4b8">KanjiVG</tspan> (CC BY-SA). Glyph fonts OFL. Pronunciation audio: Google Cloud TTS. Korean = cursive workbook this release.</text>
 </svg>
