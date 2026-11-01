@@ -182,9 +182,9 @@ virelangues / 잰말놀이) + generated, ordered easy → hard. Every twister ha
 Open in any PDF reader (GoodNotes/iPad recommended); tap **Listen** or scan the QR for the native
 audio. SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/pronunciation/SHA256SUMS). _(SPEC-LANG-013)_
 
-**Sources.** Stroke order from [Make Me a Hanzi](https://github.com/skishore/makemeahanzi) (zh) and
+**Sources.** Stroke order from [Make Me a Hanzi](https://github.com/skishore/makemeahanzi) (zh, Arphic Public License) and
 [KanjiVG](http://kanjivg.tagaini.net) (ja, CC BY-SA 3.0) via [Hanzi Writer](https://hanziwriter.org);
-kanji glosses from kanjidic; pronunciation audio from Google Cloud TTS; practice fonts under the SIL
+hanzi glosses from Make Me a Hanzi's dictionary (zh, LGPL-3.0-or-later) and kanji glosses from kanjidic; pronunciation audio from Google Cloud TTS; practice fonts under the SIL
 Open Font License.
 
 ---
@@ -496,7 +496,7 @@ Latest release (May 2026): **0 issues, χ² < 12 on every cloze-MCQ deck.**
 
 This project stands on the shoulders of:
 
-- **OpenSubtitles 2018** (via [OPUS](http://opus.nlpl.eu/OpenSubtitles-v2018.php) and [HermitDave/FrequencyWords](https://github.com/hermitdave/FrequencyWords)) — raw subtitle corpora and frequency lists. Licensed for academic and research use.
+- **OpenSubtitles 2018** (via [OPUS](http://opus.nlpl.eu/OpenSubtitles-v2018.php) and [HermitDave/FrequencyWords](https://github.com/hermitdave/FrequencyWords)) — raw subtitle corpora and frequency lists. The corpora are licensed for academic and research use; the frequency lists, FrequencyWords' content, are under CC BY-SA 4.0.
 - **[BAAI/bge-m3](https://huggingface.co/BAAI/bge-m3)** — multilingual embedding model (MIT license).
 - **[Google Gemini](https://ai.google.dev/) (via OpenRouter)** — example-sentence generation, definition fallback, reasoning generation, and synonym verification.
 - **Tokenizers / lemmatizers:**
@@ -506,7 +506,7 @@ This project stands on the shoulders of:
   - **[kiwipiepy](https://github.com/bab2min/kiwipiepy)** for Korean (LGPL)
   - **[simplemma](https://github.com/adbar/simplemma)** for French + Spanish lemmatization (MIT)
 - **CEFR proficiency lists** (level overlay): **ELELex/CEFRLex** (es), **HSK 3.0** (zh),
-  **JLPT** (ja), **NIKL 국제통용** (ko), **[FLELex/CEFRLex](https://cental.uclouvain.be/cefrlex/)** (fr) — CEFRLex sets CC BY-NC-SA, used for personal/educational study.
+  **JLPT** (ja), **NIKL 국제통용** (ko), **[FLELex/CEFRLex](https://cental.uclouvain.be/cefrlex/)** (fr) — the CEFRLex lists themselves are CC BY-NC-SA; the decks carry only each word's level, treated as a fact.
 - **Dictionaries** for free-tier gloss lookup:
   - **[CC-CEDICT](https://www.mdbg.net/chinese/dictionary?page=cc-cedict)** (CC-BY-SA 4.0) for Chinese
   - **[jamdict](https://github.com/neocl/jamdict)** wrapping JMdict (Creative Commons BY-SA)
@@ -530,6 +530,24 @@ All third-party libraries used in their original form, no modifications.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+Course content, sample cards and documentation, except files that quote CC BY-SA glosses: CC-BY-NC-SA-4.0 (Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International),
+[LICENSES/CC-BY-NC-SA-4.0.txt](LICENSES/CC-BY-NC-SA-4.0.txt). Published decks, workbooks, textbooks and repository files (such as sample cards) that embed CC BY-SA
+glosses (CC-CEDICT, JMdict, KANJIDIC, Wiktionary) or KanjiVG stroke data: CC-BY-SA-4.0 (Creative Commons Attribution-ShareAlike 4.0
+International), [LICENSES/CC-BY-SA-4.0.txt](LICENSES/CC-BY-SA-4.0.txt); commercial reuse of those
+files is allowed under its terms. The Writing-Chinese deck's stroke-order graphics (Make Me a Hanzi)
+are a separately licensed part under the Arphic Public License, distributed as a mere aggregation
+beside the deck with [LICENSES/ARPHICPL.TXT](LICENSES/ARPHICPL.TXT) unaltered. The Make Me a Hanzi
+glosses (`dictionary.txt`) in the Writing-Chinese deck and the Chinese Regular and Cursive
+workbooks are under LGPL-3.0-or-later, [LICENSES/LGPL-3.0.txt](LICENSES/LGPL-3.0.txt), with
+Unicode's notice, [LICENSES/Unicode-Unihan-notice.txt](LICENSES/Unicode-Unihan-notice.txt), not
+CC BY-SA or CC BY-NC-SA. The CEFR level a card
+shows is treated as a fact; the levels are credited to CEFRLex (ELELex, FLELex), whose lists stay
+CC BY-NC-SA. Code: MIT (the MIT
+License), [LICENSE](LICENSE). Brand images `docs/header.jpg`, `docs/hero-banner.png` and
+`docs/hero-banner.svg`: all rights reserved. Third-party material keeps its owners' terms. Which
+path carries which licence: [LICENSING.md](LICENSING.md).
 
-The included frequency lists (`*/words/*.txt`) are derived from OpenSubtitles 2018 via HermitDave/FrequencyWords and are redistributed under the spirit of that project's terms. If you build on these decks, please credit OpenSubtitles 2018 and HermitDave/FrequencyWords.
+The included frequency lists (`*/words/*.txt`) are derived from OpenSubtitles 2018 via
+HermitDave/FrequencyWords and keep that project's content licence, CC BY-SA 4.0. If you build on
+these decks, please credit OpenSubtitles 2018 and HermitDave/FrequencyWords.
