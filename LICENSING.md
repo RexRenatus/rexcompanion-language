@@ -26,7 +26,7 @@ Third-party material is NOT relicensed by this repository: each source keeps its
 | English glosses from [CC-CEDICT](https://www.mdbg.net/chinese/dictionary?page=cc-cedict), JMdict (through [jamdict](https://github.com/neocl/jamdict)), KANJIDIC and [Wiktionary](https://www.wiktionary.org/) | inside the hosted decks | CC BY-SA, in the version each project states: CC-CEDICT 4.0; KANJIDIC 4.0, under the licence of the Electronic Dictionary Research and Development Group (EDRDG) |
 | stroke-order data from [KanjiVG](http://kanjivg.tagaini.net) | inside the hosted decks | CC BY-SA 3.0 |
 | stroke-order graphics from [Make Me a Hanzi](https://github.com/skishore/makemeahanzi)'s `graphics.txt`, derived from the fonts AR PL KaitiM GB and AR PL UKai and read through [Hanzi Writer](https://hanziwriter.org)'s data | beside the Writing-Chinese deck, as a separately licensed part distributed as a mere aggregation | the Arphic Public License (Arphic Technology Co., Ltd., 1999), [LICENSES/ARPHICPL.TXT](LICENSES/ARPHICPL.TXT): every copy keeps the licence file `ARPHICPL.TXT` unaltered; a modified file carries a prominent notice of how and when it was changed; modifications are made freely available as a whole under the same licence; and no further restriction may be put on the rights it grants |
-| dictionary data from Make Me a Hanzi's `dictionary.txt`, derived from Unihan and CJKlib | recorded for completeness: these terms apply only if a hosted file carries this data | the GNU Lesser General Public License, version 3 or any later version; its Unihan-derived data also carries Unicode, Inc.'s copyright and permission notice, which must appear with every copy and in its documentation, with a clear notice in each modified data file |
+| English glosses (dictionary data) from Make Me a Hanzi's `dictionary.txt`, derived from Unihan and CJKlib | inside the Writing-Chinese deck (the meaning on every one of its 5,932 notes) and the Chinese Regular and Cursive workbooks (`Writing-Chinese-Regular.pdf`, `Writing-Chinese-Cursive.pdf`: the meanings they print) | the GNU Lesser General Public License, version 3 or any later version, [LICENSES/LGPL-3.0.txt](LICENSES/LGPL-3.0.txt); its Unihan-derived data also carries Unicode, Inc.'s copyright and permission notice, [LICENSES/Unicode-Unihan-notice.txt](LICENSES/Unicode-Unihan-notice.txt), which must appear with every copy and in its documentation, with a clear notice in each modified data file. CC BY-SA 4.0 does not apply to these glosses |
 | CEFR level lists, fonts and the other sources [README.md](README.md#attribution--sources) names | inside the hosted decks, workbooks and textbooks | their owners' terms, as that section records |
 
 ## Hosted decks
@@ -40,18 +40,27 @@ jamdict, KANJIDIC or Wiktionary, or KanjiVG stroke-order data) are released unde
 (Creative Commons Attribution-ShareAlike 4.0 International,
 [LICENSES/CC-BY-SA-4.0.txt](LICENSES/CC-BY-SA-4.0.txt)), the licence that keeps those glosses
 and that data compatible. Commercial reuse of those files is allowed under its terms. A
-redistribution of those files, or of the glosses in them, keeps the attribution to CC-CEDICT,
-JMdict, KANJIDIC, Wiktionary and KanjiVG, and stays under CC BY-SA 4.0 or a compatible licence.
+redistribution of those files, or of the CC BY-SA glosses in them, keeps the attribution to
+CC-CEDICT, JMdict, KANJIDIC, Wiktionary and KanjiVG, and stays under CC BY-SA 4.0 or a compatible
+licence.
 
-The Writing-Chinese deck's own content and glosses are under CC BY-SA 4.0, as above. Its
+The Writing-Chinese deck's own content is under CC BY-SA 4.0, as above; its Make Me a Hanzi
+glosses are not (see below). Its
 stroke-order graphics (Make Me a Hanzi's graphics, read through Hanzi Writer's data) are a
 separately licensed part under the Arphic Public License: they are distributed as a mere
 aggregation beside the deck, with the licence text
 [LICENSES/ARPHICPL.TXT](LICENSES/ARPHICPL.TXT) unaltered, and CC BY-SA 4.0 does not apply to
-them. [README.md](README.md) names Make Me a Hanzi as the source of the deck's stroke order; it
-does not say that the deck carries Make Me a Hanzi's dictionary data, so that data's terms (the
-GNU LGPL 3.0 or later, and Unicode's notice) are recorded above for completeness, and apply only
-if the deck carries it.
+them. The deck and the Chinese Regular and Cursive workbooks (`Writing-Chinese-Regular.pdf` and
+`Writing-Chinese-Cursive.pdf`) also carry Make Me a Hanzi's dictionary data: every one of the
+deck's 5,932 notes shows an English gloss from `dictionary.txt` as its meaning, and the workbooks
+print those glosses. Those glosses are under the GNU Lesser General Public License, version 3
+or any later version ([LICENSES/LGPL-3.0.txt](LICENSES/LGPL-3.0.txt)), and their Unihan-derived
+data carries Unicode, Inc.'s copyright and permission notice
+([LICENSES/Unicode-Unihan-notice.txt](LICENSES/Unicode-Unihan-notice.txt)). CC BY-SA 4.0 and
+CC BY-NC-SA 4.0 do not apply to them. A copy of those files, or of the glosses in them, keeps both
+texts with it. LGPL-3.0 builds on the
+[GNU General Public License, version 3](https://www.gnu.org/licenses/gpl-3.0.html): it
+incorporates that licence's terms and adds the permissions set out in its own text.
 
 The CEFR level a card shows is treated as a fact about the word, not as expression copied from
 a level list, so the CC BY-SA decks do not take on the NonCommercial terms of the lists the

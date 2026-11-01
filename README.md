@@ -537,7 +537,11 @@ glosses (CC-CEDICT, JMdict, KANJIDIC, Wiktionary) or KanjiVG stroke data: CC-BY-
 International), [LICENSES/CC-BY-SA-4.0.txt](LICENSES/CC-BY-SA-4.0.txt); commercial reuse of those
 files is allowed under its terms. The Writing-Chinese deck's stroke-order graphics (Make Me a Hanzi)
 are a separately licensed part under the Arphic Public License, distributed as a mere aggregation
-beside the deck with [LICENSES/ARPHICPL.TXT](LICENSES/ARPHICPL.TXT) unaltered. The CEFR level a card
+beside the deck with [LICENSES/ARPHICPL.TXT](LICENSES/ARPHICPL.TXT) unaltered. The Make Me a Hanzi
+glosses (`dictionary.txt`) in the Writing-Chinese deck and the Chinese Regular and Cursive
+workbooks are under LGPL-3.0-or-later, [LICENSES/LGPL-3.0.txt](LICENSES/LGPL-3.0.txt), with
+Unicode's notice, [LICENSES/Unicode-Unihan-notice.txt](LICENSES/Unicode-Unihan-notice.txt), not
+CC BY-SA or CC BY-NC-SA. The CEFR level a card
 shows is treated as a fact; the levels are credited to CEFRLex (ELELex, FLELex), whose lists stay
 CC BY-NC-SA. Code: MIT (the MIT
 License), [LICENSE](LICENSE). Brand images `docs/header.jpg`, `docs/hero-banner.png` and
