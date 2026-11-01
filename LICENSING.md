@@ -8,7 +8,7 @@ This repository is licensed per path:
   who keeps every right the licence does not grant, commercial use included. This covers:
   - the per-language pages and sample cards under `es/`, `fr/`, `ja/`, `ko/` and `zh/`
     (`*/README.md`, `*/samples/*.md`), except the frequency lists under `*/words/`;
-  - the documentation and its images: `README.md` and `docs/`, except the brand images below;
+  - the documentation and its images: `README.md`, `LICENSING.md` and `docs/`, except the brand images below;
 - code (scripts, tooling and CI configuration, for example `*.py`, `*.sh`, `*.js` and
   `.github/`): MIT ([LICENSE](LICENSE)). The tree holds no code files today; the pipeline that
   builds the decks is not published in this repository;
@@ -35,12 +35,12 @@ The downloadable decks, workbooks and textbooks are built from the course conten
 that is not published here, and hosted outside this repository at `storage.googleapis.com` (the
 download links in [README.md](README.md)).
 
-The published decks that embed CC BY-SA material (English glosses from CC-CEDICT, JMdict through
+The published decks, workbooks and textbooks that embed CC BY-SA material (English glosses from CC-CEDICT, JMdict through
 jamdict, KANJIDIC or Wiktionary, or KanjiVG stroke-order data) are released under CC BY-SA 4.0
 (Creative Commons Attribution-ShareAlike 4.0 International,
 [LICENSES/CC-BY-SA-4.0.txt](LICENSES/CC-BY-SA-4.0.txt)), the licence that keeps those glosses
-and that data compatible. Commercial reuse of those decks is allowed under its terms. A
-redistribution of those decks, or of the glosses in them, keeps the attribution to CC-CEDICT,
+and that data compatible. Commercial reuse of those files is allowed under its terms. A
+redistribution of those files, or of the glosses in them, keeps the attribution to CC-CEDICT,
 JMdict, KANJIDIC, Wiktionary and KanjiVG, and stays under CC BY-SA 4.0 or a compatible licence.
 
 The Writing-Chinese deck's own content and glosses are under CC BY-SA 4.0, as above. Its

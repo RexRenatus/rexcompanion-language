@@ -182,7 +182,7 @@ virelangues / 잰말놀이) + generated, ordered easy → hard. Every twister ha
 Open in any PDF reader (GoodNotes/iPad recommended); tap **Listen** or scan the QR for the native
 audio. SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/pronunciation/SHA256SUMS). _(SPEC-LANG-013)_
 
-**Sources.** Stroke order from [Make Me a Hanzi](https://github.com/skishore/makemeahanzi) (zh) and
+**Sources.** Stroke order from [Make Me a Hanzi](https://github.com/skishore/makemeahanzi) (zh, Arphic Public License) and
 [KanjiVG](http://kanjivg.tagaini.net) (ja, CC BY-SA 3.0) via [Hanzi Writer](https://hanziwriter.org);
 kanji glosses from kanjidic; pronunciation audio from Google Cloud TTS; practice fonts under the SIL
 Open Font License.
@@ -532,9 +532,14 @@ All third-party libraries used in their original form, no modifications.
 
 Course content, sample cards and documentation: CC-BY-NC-SA-4.0 (Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International),
-[LICENSES/CC-BY-NC-SA-4.0.txt](LICENSES/CC-BY-NC-SA-4.0.txt). Published decks that embed CC BY-SA
-glosses or KanjiVG stroke data: CC-BY-SA-4.0 (Creative Commons Attribution-ShareAlike 4.0
-International), [LICENSES/CC-BY-SA-4.0.txt](LICENSES/CC-BY-SA-4.0.txt). Code: MIT (the MIT
+[LICENSES/CC-BY-NC-SA-4.0.txt](LICENSES/CC-BY-NC-SA-4.0.txt). Published decks, workbooks and textbooks that embed CC BY-SA
+glosses (CC-CEDICT, JMdict, KANJIDIC, Wiktionary) or KanjiVG stroke data: CC-BY-SA-4.0 (Creative Commons Attribution-ShareAlike 4.0
+International), [LICENSES/CC-BY-SA-4.0.txt](LICENSES/CC-BY-SA-4.0.txt); commercial reuse of those
+files is allowed under its terms. The Writing-Chinese deck's stroke-order graphics (Make Me a Hanzi)
+are a separately licensed part under the Arphic Public License, distributed as a mere aggregation
+beside the deck with [LICENSES/ARPHICPL.TXT](LICENSES/ARPHICPL.TXT) unaltered. The CEFR level a card
+shows is treated as a fact; the levels are credited to CEFRLex (ELELex, FLELex), whose lists stay
+CC BY-NC-SA. Code: MIT (the MIT
 License), [LICENSE](LICENSE). Brand images `docs/header.jpg`, `docs/hero-banner.png` and
 `docs/hero-banner.svg`: all rights reserved. Third-party material keeps its owners' terms. Which
 path carries which licence: [LICENSING.md](LICENSING.md).
