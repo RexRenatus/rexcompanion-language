@@ -184,7 +184,7 @@ audio. SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks
 
 **Sources.** Stroke order from [Make Me a Hanzi](https://github.com/skishore/makemeahanzi) (zh, Arphic Public License) and
 [KanjiVG](http://kanjivg.tagaini.net) (ja, CC BY-SA 3.0) via [Hanzi Writer](https://hanziwriter.org);
-kanji glosses from kanjidic; pronunciation audio from Google Cloud TTS; practice fonts under the SIL
+hanzi glosses from Make Me a Hanzi's dictionary (zh, LGPL-3.0-or-later) and kanji glosses from kanjidic; pronunciation audio from Google Cloud TTS; practice fonts under the SIL
 Open Font License.
 
 ---
@@ -530,9 +530,9 @@ All third-party libraries used in their original form, no modifications.
 
 ## License
 
-Course content, sample cards and documentation: CC-BY-NC-SA-4.0 (Creative Commons
+Course content, sample cards and documentation, except files that quote CC BY-SA glosses: CC-BY-NC-SA-4.0 (Creative Commons
 Attribution-NonCommercial-ShareAlike 4.0 International),
-[LICENSES/CC-BY-NC-SA-4.0.txt](LICENSES/CC-BY-NC-SA-4.0.txt). Published decks, workbooks and textbooks that embed CC BY-SA
+[LICENSES/CC-BY-NC-SA-4.0.txt](LICENSES/CC-BY-NC-SA-4.0.txt). Published decks, workbooks, textbooks and repository files (such as sample cards) that embed CC BY-SA
 glosses (CC-CEDICT, JMdict, KANJIDIC, Wiktionary) or KanjiVG stroke data: CC-BY-SA-4.0 (Creative Commons Attribution-ShareAlike 4.0
 International), [LICENSES/CC-BY-SA-4.0.txt](LICENSES/CC-BY-SA-4.0.txt); commercial reuse of those
 files is allowed under its terms. The Writing-Chinese deck's stroke-order graphics (Make Me a Hanzi)

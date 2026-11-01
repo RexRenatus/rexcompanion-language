@@ -5,7 +5,8 @@ This repository is licensed per path:
 - the course content and its documentation: CC BY-NC-SA 4.0 (Creative Commons
   Attribution-NonCommercial-ShareAlike 4.0 International,
   [LICENSES/CC-BY-NC-SA-4.0.txt](LICENSES/CC-BY-NC-SA-4.0.txt)), copyright 2026 Devin Williams,
-  who keeps every right the licence does not grant, commercial use included. This covers:
+  who keeps every right the licence does not grant, commercial use included. Except for the files
+  that quote CC BY-SA glosses (see "Hosted decks" below), this covers:
   - the per-language pages and sample cards under `es/`, `fr/`, `ja/`, `ko/` and `zh/`
     (`*/README.md`, `*/samples/*.md`), except the frequency lists under `*/words/`;
   - the documentation and its images: `README.md`, `LICENSING.md` and `docs/`, except the brand images below;
@@ -42,7 +43,9 @@ jamdict, KANJIDIC or Wiktionary, or KanjiVG stroke-order data) are released unde
 and that data compatible. Commercial reuse of those files is allowed under its terms. A
 redistribution of those files, or of the CC BY-SA glosses in them, keeps the attribution to
 CC-CEDICT, JMdict, KANJIDIC, Wiktionary and KanjiVG, and stays under CC BY-SA 4.0 or a compatible
-licence.
+licence. The same holds for any file in this repository that quotes those glosses, such as a
+sample card under `*/samples/` that shows a deck card's dictionary glosses: it is under
+CC BY-SA 4.0, not CC BY-NC-SA 4.0.
 
 The Writing-Chinese deck's own content is under CC BY-SA 4.0, as above; its Make Me a Hanzi
 glosses are not (see below). Its
